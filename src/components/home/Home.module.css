@@ -1,0 +1,57 @@
+.home{
+    padding: 50px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    align-items: flex-start;
+}
+
+.profession{
+    color: rgba(100, 100, 100, 1);
+    text-transform: uppercase;
+}
+
+.name{
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+.welcome{
+    font-family: 'Lato', sans-serif;
+    color: rgba(100, 100, 100, 1);
+    font-size: 1rem;
+}
+
+.img{
+    margin-right: 0;
+    width:370px;
+    height:465px;
+    color: #3F593D;
+    background-image: url('../../assets/1.png');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #3F593D;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+}
+
+.button{
+    margin:20px 0;
+    width:130px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    background: rgba(8, 52, 137, 0.82);
+    border-radius: 15px 0px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
