@@ -1,0 +1,73 @@
+.project{
+    display: flex;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 50px;
+    border: 2px solid #3F593D;
+    box-sizing: border-box;
+    border-radius: 140px 0px;
+    justify-content: space-between;
+}
+
+.projectDescription{
+    flex-basis: 40%;
+}
+
+.projectTitle{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.projectDetails{
+    font-family: 'Lato', sans-serif;
+    color: rgba(100, 100, 100, 1);
+    line-height: 24px;
+}
+.list{
+    padding: 0 0 0 20px;
+}
+.imageContainer{
+    flex-basis: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.image{
+    position:absolute;
+    top:50%;
+    width:80%;
+    transform: translateY(-50%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.backgroundImage{
+    position:absolute;
+    width:80%;
+    top:50%;
+    width:80%;
+    transform:translateY(-50%) rotate(-170deg);
+}
+.buttonsContainer{
+    margin-top: 35px;
+}
+.button{
+    border: none;
+    width:140px;
+    background-color: #EFE1D9;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(61, 61, 61, 1);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.button:first-of-type{
+    border-radius: 15px 0 0 0;
+}
+.button:last-of-type{
+    margin-left: 2px;
+    border-radius: 0 0 15px 0;
+}
