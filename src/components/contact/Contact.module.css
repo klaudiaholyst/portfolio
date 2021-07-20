@@ -1,0 +1,33 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 50px 140px;
+}
+
+.componentTitle{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+.description {
+    font-family: 'Lato', sans-serif;
+    color: rgba(100, 100, 100, 1);
+    font-size: 1rem;
+}
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 75px 200px 500px;
+    grid-template-rows: 30px;
+    justify-items: start;
+    align-items: center;
+    grid-row-gap: 20px;
+    row-gap: 20px;
+}
+.icon{
+    width:35px;
+}
