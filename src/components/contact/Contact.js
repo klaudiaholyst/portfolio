@@ -1,6 +1,6 @@
 import React from 'react';
 
-import mail from '../../assets/svg/at-solid.svg';
+import mail from '../../assets/svg/envelope-regular.svg';
 import github from '../../assets/svg/github-brands.svg';
 import linkedin from '../../assets/svg/linkedin-brands.svg';
 import phone from '../../assets/svg/phone-solid.svg';
@@ -13,18 +13,14 @@ const Contact = () => {
             <h1 className={styles.componentTitle}>Contact</h1>
             <p className={styles.description}>Feel free to contact me! :)</p>
             <div className={styles.container}>
-                <img src={mail} className={styles.icon} alt="mail"/>
-                <p className={styles.description}>Email</p>
-                <p className={styles.description}>kklaudiaw@gmail.com</p>
-                <img src={github} className={styles.icon} alt="github"/>
-                <p className={styles.description}>GitHub</p>
-                <p className={styles.description}>https://github.com/klaudiaholyst/</p>
-                <img src={linkedin} className={styles.icon} alt="linkedin"/>
-                <p className={styles.description}>LinkedIn</p>
-                <p className={styles.description}>https://www.linkedin.com/in/klaudia-holyst-415088166/</p>
+                <a href="mailto:kklaudiaw@gmail.com"><img src={mail} className={styles.icon} alt="mail"/></a>
+                <a href="mailto:kklaudiaw@gmail.com" className={styles.link}>kklaudiaw@gmail.com</a>
+                <a href="https://github.com/klaudiaholyst/" rel="noreferrer" target="_blank"><img src={github} className={styles.icon} alt="github"/></a>
+                <a href="https://github.com/klaudiaholyst/" rel="noreferrer" target="_blank" className={styles.link}>https://github.com/klaudiaholyst/</a>
+                <a href="https://www.linkedin.com/in/klaudia-holyst/" target="_blank"><img src={linkedin} className={styles.icon} alt="linkedin"/></a>
+                <a href="https://www.linkedin.com/in/klaudia-holyst/" target="_blank" className={styles.link}>https://www.linkedin.com/in/klaudia-holyst/</a>
                 <img src={phone} className={styles.icon} alt="phone"/>
-                <p className={styles.description}>Phone</p>
-                <p className={styles.description}>xxxxxxxxxxx</p>
+                <a href="tel:+43 688 64771139" className={styles.link}>+43 688 64771139</a>
             </div>
         </main>
     )
