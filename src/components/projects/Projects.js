@@ -55,12 +55,13 @@ const Projects = () => {
     return (
         <main className={styles.projects}>
             <h1 className={styles.componentTitle}>Projects</h1>
-            {myProjects.map(project => {
+            {myProjects.map((project, index) => {
                 return <SingleProject title={project.title}
                     details={project.details}
                     list={project.list}
                     tools={project.tools}
-                    img={project.img} />
+                    img={project.img}
+                    key={index} />
             })}
         </main>
     )
