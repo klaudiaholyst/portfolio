@@ -16,7 +16,7 @@ const Header = () => {
                     <li onClick={ () => history.push('/') } className={styles.item}>Home</li>
                     <li onClick={ () => history.push('/projects') } className={styles.item}>Projects</li>
                     <li onClick={ () => history.push('/about') } className={styles.item}>About me</li>
-                    <li onClick={ () => history.push('/contact') } className={styles.item}><button className={styles.button}>Contact</button></li>
+                    <li onClick={ () => history.push('/contact') }><button className={styles.button}>Contact</button></li>
                 </ul>
             </div>
             
