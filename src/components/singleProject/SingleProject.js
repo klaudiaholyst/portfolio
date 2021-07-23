@@ -21,7 +21,7 @@ const SingleProject = (props) => {
     }
     )
     return (
-        <article className={styles.project}>
+        <article data-aos="fade-up" className={styles.project}>
                 <div className={styles.projectDescription}>
                     <h2 className={styles.projectTitle}>{props.title}</h2>
                     <p className={styles.projectDetails}>

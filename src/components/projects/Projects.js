@@ -1,7 +1,9 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import SingleProject from '../singleProject/SingleProject';
 
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import styles from './Projects.module.css';
 
 const myProjects = [
@@ -47,6 +49,9 @@ const myProjects = [
     },
 ]
 const Projects = () => {
+    useEffect(() => {
+    Aos.init({duration:2000});
+    }, [])
     return (
         <main className={styles.projects}>
             <h1 className={styles.componentTitle}>Projects</h1>

@@ -1,3 +1,7 @@
+import React, {useEffect} from 'react';
+
+import Aos from 'aos';
+
 import profilePicture from '../../assets/ProfilePicture.jpg';
 
 import htmlLogo from '../../assets/technologies/html5.png';
@@ -12,13 +16,18 @@ import skatesLogo from '../../assets/svg/roller-skate.svg';
 import guitarLogo from '../../assets/svg/guitar.svg';
 import keyLogo from '../../assets/svg/key.svg';
 
+import "aos/dist/aos.css";
+
 import styles from './About.module.css';
 
 const About = () => {
+    useEffect(() => {
+        Aos.init({duration:2000});
+        }, [])
     return (
             <main className={styles.about}>
                 <h1 className={styles.componentTitle}>About</h1>
-                <div className={styles.box}>
+                <div data-aos="zoom-in-up" className={styles.box}>
                     <div className={styles.descriptionContainer}>
                         <p className={styles.description}>I’m Klaudia Holyst,  Front End Developer, based in Vienna.
                             <br />
@@ -37,35 +46,35 @@ const About = () => {
                 </div>
                 <h2 className={styles.subtitle}>Technolgies I've been using</h2>
                 <div className={styles.technologiesContainer}>
-                    <div className={styles.logoContainer}>
+                    <div  className={styles.logoContainer} data-aos="flip-left">
                         <img src={htmlLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>HTML5</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="300">
                         <img src={cssLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>CSS3</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="600">
                         <img src={jsLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>JavaScript</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="900">
                         <img src={reactLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>React</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="1200">
                         <img src={gitLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>git</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="1500">
                         <img src={firebaseLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>Firebase</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="1800">
                         <img src={materialUiLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>Material UI</p>
                     </div>
-                    <div className={styles.logoContainer}>
+                    <div className={styles.logoContainer} data-aos="flip-left" data-aos-delay="2100">
                         <img src={figmaLogo} alt="" className={styles.logoImg} />
                         <p className={styles.logoName}>Figma</p>
                     </div>
