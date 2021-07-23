@@ -1,5 +1,5 @@
 .header{
-    padding:20px 140px;
+    padding:10px 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +25,8 @@
     font-weight: 600;
     cursor: pointer;
     position: relative;
+    text-decoration: none;
+    color: #212121;
 }
 .item:after {    
     background: none repeat scroll 0 0 transparent;
@@ -83,3 +85,16 @@
   .button:hover:before {
     opacity: 1;
   }
+  .selected:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -3px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #212121;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 100%; 
+    left: 0; 
+}
