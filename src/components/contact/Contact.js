@@ -17,9 +17,9 @@ const Contact = () => {
                 <a href="mailto:kklaudiaw@gmail.com" className={styles.link}>kklaudiaw@gmail.com</a>
                 <a href="https://github.com/klaudiaholyst/" rel="noreferrer" target="_blank"><img src={github} className={styles.icon} alt="github"/></a>
                 <a href="https://github.com/klaudiaholyst/" rel="noreferrer" target="_blank" className={styles.link}>https://github.com/klaudiaholyst/</a>
-                <a href="https://www.linkedin.com/in/klaudia-holyst/" target="_blank"><img src={linkedin} className={styles.icon} alt="linkedin"/></a>
-                <a href="https://www.linkedin.com/in/klaudia-holyst/" target="_blank" className={styles.link}>https://www.linkedin.com/in/klaudia-holyst/</a>
-                <img src={phone} className={styles.icon} alt="phone"/>
+                <a href="https://www.linkedin.com/in/klaudia-holyst/" target="_blank" rel="noreferrer"><img src={linkedin} className={styles.icon} alt="linkedin"/></a>
+                <a href="https://www.linkedin.com/in/klaudia-holyst/" target="_blank" rel="noreferrer" className={styles.link}>https://www.linkedin.com/in/klaudia-holyst/</a>
+                <a href="tel:+43 688 64771139" className={styles.link}><img src={phone} className={styles.icon} alt="phone"/></a>
                 <a href="tel:+43 688 64771139" className={styles.link}>+43 688 64771139</a>
             </div>
         </main>

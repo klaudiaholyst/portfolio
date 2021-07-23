@@ -33,7 +33,7 @@
     width:370px;
     height:465px;
     color: #3F593D;
-    background-image: url("../../assets/1.png");
+    background-image: url("../../assets/ProfilePictureLines.png");
     background-size: cover;
     background-position: center;
     border: 2px solid #3F593D;
@@ -54,4 +54,5 @@
     font-size: 1rem;
     padding-top: 8px;
     padding-bottom: 8px;
+    cursor: pointer;
 }
