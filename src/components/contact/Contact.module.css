@@ -5,6 +5,7 @@
     align-items: flex-start;
     box-sizing: border-box;
     padding: 50px 140px;
+    min-height: calc(100vh - 191.2px);
 }
 .componentTitle{
     text-transform: uppercase;
