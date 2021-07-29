@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 
 import SingleProject from '../singleProject/SingleProject';
 
@@ -24,7 +24,8 @@ const myProjects = [
             'Every new contact is saved on local storage'],
         tools: 'React.js, React Hooks, React Context, npm, Material UI, local storage',
         img: 'contacts',
-        codeURL: 'https://github.com/klaudiaholyst/contacts-app'
+        codeURL: 'https://github.com/klaudiaholyst/contacts-app',
+        liveURL: 'https://klaudiaholyst.github.io/contacts-app/'
     },
     {
         title: 'Calculator',
@@ -61,7 +62,7 @@ const myProjects = [
 ]
 const Projects = () => {
     useEffect(() => {
-    Aos.init({duration:2000});
+        Aos.init({ duration: 2000 });
     }, [])
     return (
         <main className={styles.projects}>
