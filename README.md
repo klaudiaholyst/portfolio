@@ -17,7 +17,7 @@ Single page application with sections:
 ## Screenshots 📺
 
 <p align="center">
-    <img src="" alt="Screenshot of portfolio">
+    <img src="https://raw.githubusercontent.com/klaudiaholyst/portfolio/main/src/assets/Portfolio.png" alt="Screenshot of portfolio">
 </p>
 
 ## Installation 💾
