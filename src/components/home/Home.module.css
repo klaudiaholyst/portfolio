@@ -33,14 +33,13 @@
     width:370px;
     height:465px;
     color: #3F593D;
-    background-image: url("../../assets/1.png");
+    background-image: url("../../assets/ProfilePictureLines.png");
     background-size: cover;
     background-position: center;
     border: 2px solid #3F593D;
     box-sizing: border-box;
     border-radius: 140px 0px;
 }
-
 .button{
     margin:20px 0;
     width:130px;
@@ -49,9 +48,20 @@
     color: rgba(255, 255, 255, 1);
     background: rgba(8, 52, 137, 0.82);
     border-radius: 15px 0px;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
     text-transform: uppercase;
     border: none;
     font-size: 1rem;
     padding-top: 8px;
     padding-bottom: 8px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.button:hover{
+    background: rgba(9, 41, 105, 0.82);
 }

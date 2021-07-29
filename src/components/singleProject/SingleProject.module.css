@@ -4,10 +4,11 @@
     width: 100%;
     margin-bottom: 100px;
     padding: 50px;
-    border: 2px solid #3F593D;
     box-sizing: border-box;
     border-radius: 140px 0px;
     justify-content: space-between;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .projectDescription{
@@ -53,16 +54,26 @@
     margin-top: 35px;
 }
 .button{
+    display: inline-block;
     border: none;
     width:140px;
     background-color: #EFE1D9;
     font-family: 'Montserrat', sans-serif;
     color: rgba(61, 61, 61, 1);
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
     text-transform: uppercase;
+    text-align: center;
     font-size: 0.9rem;
     font-weight: 600;
+    text-decoration: none;
     padding-top: 8px;
     padding-bottom: 8px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .button:first-of-type{
     border-radius: 15px 0 0 0;
@@ -70,4 +81,7 @@
 .button:last-of-type{
     margin-left: 2px;
     border-radius: 0 0 15px 0;
+}
+.button:hover{
+    background-color: #e7c9b7;
 }
