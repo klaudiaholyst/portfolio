@@ -31,7 +31,7 @@ npm start
 
 ```
 ## Live 📍
-
+https://klaudiaholyst.github.io/portfolio/
 
 ## License 🔱
 Open source license.
