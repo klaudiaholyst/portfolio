@@ -1,7 +1,5 @@
 import { useState } from 'react';
 
-import { Link } from 'react-router-dom';
-
 import backgroundImg from '../../assets/Background.jpg';
 import album from '../../assets/Album.png';
 import calculator from '../../assets/Calculator.png';
@@ -13,7 +11,7 @@ import responsiveWebsite from '../../assets/ResponsiveWebsite.png';
 import styles from './SingleProject.module.css';
 
 const SingleProject = (props) => {
-    const [images, setImages] = useState({
+    const [images] = useState({
         'album': album,
         'calculator': calculator,
         'contacts': contacts,
@@ -33,8 +31,8 @@ const SingleProject = (props) => {
                     <h3>Technologies and tools</h3>
                     <p className={styles.projectDetails}>{props.tools}</p>
                     <div className={styles.buttonsContainer}>
-                        <Link to={{ pathname: props.liveURL }} target="_blank" className={styles.button}>Live preview</Link>
-                        <Link to={{ pathname: props.codeURL}} target="_blank" className={styles.button}>Code</Link>
+                        <a href={props.liveURL} className={styles.button}>Live preview</a>
+                        <a href={props.codeURL} className={styles.button}>Code</a>
                     </div>
                 </div>
                 <div className={styles.imageContainer}>
