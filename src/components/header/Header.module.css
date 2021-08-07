@@ -83,3 +83,6 @@
     width: 100%; 
     left: 0; 
 }
+@media (max-width:1000px){
+    .header{padding: 10px 50px;}
+}

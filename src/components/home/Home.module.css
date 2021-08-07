@@ -65,3 +65,15 @@
 .button:hover{
     background: rgba(9, 41, 105, 0.82);
 }
+
+@media (max-width: 1023px){
+    .home{
+        align-items: center;
+        padding:50px 50px;
+    }
+    .img{
+        width: 254px;
+        height: 340px;
+        border-radius: 110px 0px;
+    }
+}

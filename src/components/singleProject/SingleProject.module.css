@@ -85,3 +85,23 @@
 .button:hover{
     background-color: #e7c9b7;
 }
+@media (max-width: 1023px){
+    .project{
+        display: block;
+    }
+    .backgroundImage{
+        display: none;
+    }
+    .image{
+        transform: none;
+        position: relative;
+        padding-top:40px;
+    }
+    .projectDescription{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    align-items: center;
+    margin: 0 auto;
+    }
+}
