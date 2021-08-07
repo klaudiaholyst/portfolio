@@ -1,6 +1,4 @@
 .footer{
-    position:relative;
-    margin:20px 0 0;
     padding:20px 160px;
     display: flex;
     justify-content: space-between;
@@ -14,23 +12,4 @@
     line-height: 24px;
     z-index: 2;
     text-decoration: none;
-}
-.customShape {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.customShape svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 50px;
-}
-
-.customShape .shapeFill {
-    fill: #FDFAF6;
 }

@@ -40,15 +40,15 @@ const myProjects = [
         details: 'Simple responsive website. Styling done using BEM methodology.',
         tools: 'HTML, CSS, JavaScript',
         img: 'responsiveWebsite',
-        codeURL: 'https://github.com/klaudiaholyst/Weekly-WebDev-Challenge-2',
-        liveURL: 'https://klaudiaholyst.github.io/Weekly-WebDev-Challenge-2/'
+        codeURL: 'https://github.com/klaudiaholyst/Simple-website',
+        liveURL: 'https://klaudiaholyst.github.io/Simple-website/'
     },
     {
         title: 'Responsive Section',
         details: 'Simple responsive four-card section made with HTML and CSS.',
         tools: 'HTML, CSS',
         img: 'responsiveSection',
-        codeURL: 'https://github.com/klaudiaholyst/-Four-card-feature-section-challenge-from-Frontend-Mentor-',
+        codeURL: 'https://github.com/klaudiaholyst/Responsive-section-frontendmentor',
         liveURL: 'https://four-card-feature-section-challenge-from-frontend-mentor.vercel.app/'
     },
     {
@@ -56,8 +56,8 @@ const myProjects = [
         details: 'Responsive page with forms. Used BEM methodology.',
         tools: 'HTML, CSS, BEM',
         img: 'forms',
-        codeURL: 'https://github.com/klaudiaholyst/Weekly-WebDev-Challenge-1',
-        liveURL: 'https://klaudiaholyst.github.io/Weekly-WebDev-Challenge-1/'
+        codeURL: 'https://github.com/klaudiaholyst/Forms-responsive',
+        liveURL: 'https://klaudiaholyst.github.io/Forms-responsive/'
     },
 ]
 const Projects = () => {
