@@ -36,6 +36,9 @@
     align-items: center;
     position: relative;
 }
+.imageContainer.imageContainerMobile{
+    display: none;
+}
 .image{
     position:absolute;
     top:50%;
@@ -87,21 +90,27 @@
 }
 @media (max-width: 1023px){
     .project{
-        display: block;
+        margin-bottom: 40px;
+        padding: 20px;
+        border-radius: 70px 0;
     }
-    .backgroundImage{
+    .projectTitle{
+        text-align: center;
+    }
+    .imageContainer{
         display: none;
     }
-    .image{
-        transform: none;
-        position: relative;
-        padding-top:40px;
+    .imageContainer.imageContainerMobile{
+        display:flex;
+    }
+    .imageMobile{
+        width:90%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     .projectDescription{
-    display: flex;
-    flex-direction: column;
-    width: 440px;
-    align-items: center;
-    margin: 0 auto;
+        flex-basis: 100%;
+    }
+    .button{
+        width:45%;
     }
 }
