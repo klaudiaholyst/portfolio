@@ -30,6 +30,10 @@ const About = () => {
             <h1 className={styles.componentTitle}>About</h1>
             <div data-aos="zoom-in-up" className={styles.box}>
                 <div className={styles.descriptionContainer}>
+                <div className={styles.imageContainerMobile}>
+                    <div className={styles.imageFrame}></div>
+                    <img src={profilePicture} alt="woman" className={styles.image} />
+                </div>
                     <p className={styles.description}>I’m Klaudia Holyst,  Front End Developer, based in Vienna.
                         <br />
                         <br />
@@ -42,11 +46,12 @@ const About = () => {
                         <br />
                         Since December 2020 I’ve been mentored by an experienced Full Stack Web Developer.
                         </p>
+
                     <a className={styles.button} href={CV} download="KlaudiaHolystCV">Download my CV</a>
                 </div>
                 <div className={styles.imageContainer}>
                     <div className={styles.imageFrame}></div>
-                    <img src={profilePicture} alt="woman smiling" className={styles.image} />
+                    <img src={profilePicture} alt="woman" className={styles.image} />
                 </div>
             </div>
             <h2 className={styles.subtitle}>Technolgies I've been using</h2>
