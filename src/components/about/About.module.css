@@ -120,9 +120,77 @@
 .factImg{
     height: 40px;
 }
-
+.imageContainerMobile{
+    display: none;
+}
 @media (max-width: 1023px){
+    .about{
+        padding: 70px 25px 20px;
+    }
+    .componentTitle{
+    text-align: center;
+    }
     .box{
-        align-items: center;
+        width: 100%;
+        display: flex;
+        /* margin-bottom: 50px; */
+        flex-direction: column;
+    }
+    .descriptionContainer{
+        margin-bottom:0;
+    }
+    .imageContainer{
+        flex-basis: auto;
+        display: none;
+    }
+    .imageContainerMobile{
+        display: flex;
+        margin-top: 20px;
+        position: relative;
+        align-self: center;
+    }
+    .image{
+        position: absolute;
+        top: -10px;
+        right: 10px;
+        width: 125px;
+        box-sizing: border-box;
+        border-radius: 54px 0px;
+    }
+    .imageFrame{
+        width: 125px;
+        height: 180px;
+        border: 2px solid #3F593D;
+        box-sizing: border-box;
+        border-radius: 54px 0px
+    }
+    .button{
+        margin: 20px auto;
+    }
+
+    .technologiesContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        row-gap: 30px;
+    }
+    .factsContainer{
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+    .factBox{
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .factImg{
+        display: block;
+        flex-basis: 20%;
+    }
+    .factBox .logoName{
+        flex-basis: 70%;
+        text-align: left;
     }
 }
