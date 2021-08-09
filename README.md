@@ -8,9 +8,6 @@ Single page application with sections:
 - About me
 - Contacts
 
-To be done in the future:
-- mobile version
-
 ## Technologies 🔧
 
 - React (Hooks, Router)
