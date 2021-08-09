@@ -5,6 +5,7 @@
     align-items: center;
     text-transform: uppercase;
     background-color: #d9d9d980;
+    position: relative;
 }
 .name{
     color: rgba(100, 100, 100, 1);
@@ -17,8 +18,7 @@
 .list{
     list-style: none;
     display: flex;
-    align-items: center;
-    
+    align-items: center; 
 }
 .item{
     margin-left: 30px;
@@ -45,7 +45,9 @@
     left: 0; 
   }
 
-.button{
+.itemButton{
+    display: block;
+    text-align: center;
     width:130px;
     margin-left: 90px;
     font-family: 'Montserrat', sans-serif;
@@ -67,7 +69,8 @@
     position: relative;
     transition: all 0.3s ease;
 }
-.button:hover{
+.itemButton::after{display: none;}
+.itemButton:hover{
     background: rgba(189, 113, 59, 0.705);
 }
 .selected:after {
@@ -82,4 +85,79 @@
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 100%; 
     left: 0; 
+}
+
+.toggleButton {
+    border: none;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+}
+
+.bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgba(100, 100, 100, 1);
+    border-radius: 10px;
+}
+
+@media (max-width:1000px){
+    .header{
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width:800px){
+    .header{
+        width:100vw;
+        background-color: #eeeeee;
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        z-index: 99;
+    }
+    .name{
+        padding: 10px 50px;
+    }
+
+    .selected:after{
+        display: none;
+    }
+    .toggleButton {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+    }
+
+    .list {
+        margin:0;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    .list li{
+        width: 100%;
+        border-bottom: solid rgba(100, 100, 100, 1) 1px;       
+    }
+    .list li:first-of-type{
+        border-top: solid rgba(100, 100, 100, 1) 1px;  
+    }
+    .item{
+        margin:0;
+        padding: 30px 0;
+        text-align: center;
+        display: block;
+    }
+    .menu.active {
+        display: flex;
+    }
 }

@@ -24,6 +24,9 @@ const SingleProject = (props) => {
         <article data-aos="fade-up" className={styles.project}>
                 <div className={styles.projectDescription}>
                     <h2 className={styles.projectTitle}>{props.title}</h2>
+                <div className={`${styles.imageContainer} ${styles.imageContainerMobile}`}>
+                    <img src={images[props.img]} alt={props.title} className={styles.imageMobile}/>
+                </div> 
                     <p className={styles.projectDetails}>
                         {props.details}
                     </p>

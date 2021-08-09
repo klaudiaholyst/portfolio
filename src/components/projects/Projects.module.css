@@ -13,3 +13,11 @@
     letter-spacing: 2px;
     margin-bottom: 50px;
 }
+@media (max-width: 1023px){
+    .componentTitle{
+        align-self: center;
+    }
+    .projects{
+        padding: 70px 8px 20px;
+    }
+}

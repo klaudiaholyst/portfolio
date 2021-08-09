@@ -13,3 +13,12 @@
     z-index: 2;
     text-decoration: none;
 }
+@media (max-width:1000px){
+    .footer{
+        padding: 20px 25px;
+        flex-direction: column;
+    }
+    .description{
+        font-size: 13px;
+    }
+}
