@@ -12,11 +12,12 @@ import gitLogo from '../../assets/technologies/git.png';
 import jsLogo from '../../assets/technologies/js.png';
 import materialUiLogo from '../../assets/technologies/materialUI.png';
 import reactLogo from '../../assets/technologies/react.png';
+import typeScriptLogo from  '../../assets/technologies/ts.png';
 import skatesLogo from '../../assets/svg/roller-skate.svg';
 import guitarLogo from '../../assets/svg/guitar.svg';
 import keyLogo from '../../assets/svg/key.svg';
 
-import CV from '../../assets/KlaudiaHolystCV.pdf'
+import CV from '../../assets/KlaudiaHolyst.pdf'
 import "aos/dist/aos.css";
 
 import styles from './About.module.css';
@@ -90,6 +91,13 @@ const About = () => {
                 </div>
             </div>
             <p className={styles.description}>To see my skills in action, check out the projects.</p>
+            <h2 className={styles.subtitle}>Learning now</h2>
+            <div className={styles.technologiesContainer}>
+                <div className={styles.logoContainer} data-aos="flip-left">
+                    <img src={typeScriptLogo} alt="" className={styles.logoImg} />
+                    <p className={styles.logoName}>TypeScript</p>
+                </div>
+            </div>
             <h2 className={styles.subtitle}>Three random facts about me</h2>
             <div className={styles.factsContainer}>
                 <div className={styles.factBox}>
