@@ -35,7 +35,7 @@ const About = () => {
                     <div className={styles.imageFrame}></div>
                     <img src={profilePicture} alt="woman" className={styles.image} />
                 </div>
-                    <p className={styles.description}>I’m Klaudia Holyst,  Front End Developer, based in Vienna.
+                    <p className={styles.description}>I’m Klaudia Holyst, Junior Front End Developer, based in Vienna.
                         <br />
                         <br />
                         I graduated Management and Production Engineering on University of Science and Technology in Cracow, Poland. 
@@ -45,7 +45,7 @@ const About = () => {
                         Keen on learning front-end technologies. Searching for a role allowing to specialize in web applications development.
                         <br />
                         <br />
-                        Since December 2020 I’ve been mentored by an experienced Full Stack Web Developer.
+                        Since December 2020 I’ve been mentored by an experienced Senior Full Stack Web Developer.
                         </p>
 
                     <a className={styles.button} href={CV} download="KlaudiaHolystCV">Download my CV</a>
