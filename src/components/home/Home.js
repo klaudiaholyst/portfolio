@@ -15,7 +15,7 @@ const Home = () => {
     return (
         <div className={styles.home}>
             <div className={styles.description} data-aos="fade-right">
-                <h2 className={styles.profession}>Frontend Developer</h2>
+                <h2 className={styles.profession}>Junior Frontend Developer</h2>
                 <h1 className={styles.name}>Klaudia Holyst</h1>
                 <div className={styles.imgMobile}></div>
                 <p className={styles.welcome}>Welcome on my page! Take a look on the projects, read something
