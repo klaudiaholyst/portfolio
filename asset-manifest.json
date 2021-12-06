@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7e8f3173.chunk.css",
-    "main.js": "/portfolio/static/js/main.47f74989.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.47f74989.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5cd673f7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5cd673f7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3b0e0610.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3b0e0610.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -20,7 +20,7 @@
     "static/media/Contacts.439bf053.png": "/portfolio/static/media/Contacts.439bf053.png",
     "static/media/Footer.module.css": "/portfolio/static/media/FooterBackground.ca659e6f.jpg",
     "static/media/Forms.0e244120.png": "/portfolio/static/media/Forms.0e244120.png",
-    "static/media/KlaudiaHolyst.37f0e272.pdf": "/portfolio/static/media/KlaudiaHolyst.37f0e272.pdf",
+    "static/media/KlaudiaHolyst.056588b9.pdf": "/portfolio/static/media/KlaudiaHolyst.056588b9.pdf",
     "static/media/ProfilePicture.4b968a18.jpg": "/portfolio/static/media/ProfilePicture.4b968a18.jpg",
     "static/media/Home.module.css": "/portfolio/static/media/ProfilePictureLines.1e29c499.png",
     "static/media/ResponsiveSection.e7d88422.png": "/portfolio/static/media/ResponsiveSection.e7d88422.png",
@@ -45,6 +45,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.0d2e0874.chunk.js",
     "static/css/main.7e8f3173.chunk.css",
-    "static/js/main.47f74989.chunk.js"
+    "static/js/main.5cd673f7.chunk.js"
   ]
 }
